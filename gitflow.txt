@@ -1,0 +1,16 @@
+Git flow description for the repository.
+
+Main branch is protected.                               
+
+Feature branches are branched from develop.
+Branches are named according to functionality: 
+prefix/functionality_description
+Prefixes:
+feature - new functionality
+fix - bug
+test - test
+
+Commit:
+TASK: what was done
+Develop branch must be merged into feature branch before merging.
+Feature branch is deleted after merging to develop.
